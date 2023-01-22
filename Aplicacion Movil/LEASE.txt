@@ -1,0 +1,2 @@
+La aplicacion esta pensada para proveer informacion sobre las obras cercanas al dispositivo que la esta utilizando.
+Debido al escaso tiempo y a lo pedido en el enunciado, hice una DEMO de como seria el producto final. Simulando una busqueda satisfactoria.

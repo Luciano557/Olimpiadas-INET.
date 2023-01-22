@@ -1,0 +1,12 @@
+Pagina index: Museo.html
+
+Usuario: Usuario
+Contraseña: 123
+
+Usuario para administradores: Admin
+Contraseña para administradores: 123
+
+
+
+(Aclaracion)Hay algo de texto de ejemplo con lore ipsum
+

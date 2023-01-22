@@ -1,0 +1,64 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Iniciar Sesion</title>
+</head>
+
+<body>
+    <header>
+                <div class="logo">
+                <a href="Museo.html">
+                <img src="beepcons.png" alt="logo de la compañia" class="logo-img"></a> 
+                </div>
+              </header>
+
+
+<main  class="login">
+    
+<h1>Ingresa Tus Datos</h1> 
+
+<form name="login"> 
+    
+    <h2>Usuario</h2>
+            <input name="usuario" type="text" placeholder="Escriba aqui..." class="Input" value="" size="25"/> 
+
+    <h2>Clave</h2>
+    
+            <input name="password" type="password" placeholder="Escriba aqui..." class="Input" value="" size="25"/> 
+<br><br>
+            <input id="btn1" value="Entrar" target="_parent" onclick="Login()" type="button" class="btn btn-borde"/>
+
+
+            <input id="btn2" type="reset" name="Borrar" id="Borrar" value="Borrar" class="btn btn-borde"/>
+           
+</form> 
+
+</main>
+
+<script language="JavaScript"> 
+function Login(){ 
+var done=0; 
+var usuario=document.login.usuario.value; 
+var password=document.login.password.value; 
+if (usuario=="Admin" && password=="123") { 
+window.location="Admin.html"; 
+} 
+if (usuario=="Usuario" && password=="123") { 
+window.location="Usuario.html"; 
+} 
+ 
+} 
+</script> 
+
+<script language="Javascript"> 
+
+document.oncontextmenu = function(){return false} 
+
+</script>
+  
+<footer>
+
+</footer>
+</body>
+</html>

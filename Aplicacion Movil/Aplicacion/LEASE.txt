@@ -1,0 +1,2 @@
+Es importante abrir el proyecto en "Visual Studio 2022" ya que fue desarrollado en dicha version.
+Cabe aclarar que utilize el emulador que provee el programa.
